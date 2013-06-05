@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/categoria"
+    android:orientation="vertical" >
+    
+    <!-- List view -->
+	<ListView
+        android:id="@+id/listMainView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="#5A000099"
+        android:cacheColorHint="#00000000"
+        android:smoothScrollbar="true" >
+    </ListView>
+
+	<TextView
+	    android:id="@+id/textVenda"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_alignRight="@+id/listMainView"
+	    android:layout_marginRight="48dp"
+	    android:layout_marginTop="50dp"
+	    android:text="@string/venda"
+	    android:textAppearance="?android:attr/textAppearanceLarge"
+	    android:textColor="@color/cor_branco"
+	    android:textSize="50sp"
+	    android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Droid Imóveis</string>
+    <string name="action_settings">Settings</string>
+    <string name="permuta">Permuta</string>
+    <string name="aluguel">Aluguel</string>
+    <string name="venda">Venda</string>
+    <string name="compra">Compra</string>
+    <string name="desenvolvedor">Desenvolvedor</string>
+    <string name="about_title">Sobre o DroidImóveis</string>
+    <string name="sobre">Sobre</string>
+    <string name="about_text">        
+Classificados de imóveis em Taubaté.
+Para cadastrar anúncios ou obter maiores
+detalhes a respeito das ofertas favor 
+acessar www.droidimoveis.vv.si         
+</string>
+    <string name="sobre_desenv">        
+Aplicativo desenvolvido por Daniel Brinco, 
+aluno do curso de Graduação em Tecnologia 
+em Análise e Desenvolvimento de Sistemas
+(UNITAU - 2013) para fins de avaliação da 
+disciplina de Computação Móvel, ministrada 
+pelo Prof. Reuel Lopes.
+O desenvolvedor não se responsabiliza pelo
+uso deste aplicativo ou por qualquer tipo
+de dano ou prejuízo causado pelo mesmo, 
+uma vez que trata-se de um protótipo para
+avaliação acadêmica.
+</string>
+</resources>

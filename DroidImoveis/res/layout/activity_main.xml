@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity" >
+
+    <com.google.android.apps.iosched.ui.widget.DashboardLayout
+        android:id="@+id/dashboardPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/dash" >
+        
+        <Button
+            android:id="@+id/buttonCompra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboardLayout1"
+            android:layout_alignTop="@+id/dashboardLayout1"
+            android:layout_marginLeft="296dp"
+            android:layout_marginTop="155dp"
+            android:text="@string/compra"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/cor_branco"
+            android:background="@color/vermelho" />
+        
+        <Button
+            android:id="@+id/buttonVenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboardLayout1"
+            android:layout_alignTop="@+id/dashboardLayout1"
+            android:layout_marginLeft="296dp"
+            android:layout_marginTop="155dp"
+            android:text="@string/venda"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/cor_branco"
+            android:background="@color/vermelho" />
+        
+        <Button
+            android:id="@+id/buttonAluguel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboardLayout1"
+            android:layout_alignTop="@+id/dashboardLayout1"
+            android:layout_marginLeft="296dp"
+            android:layout_marginTop="155dp"
+            android:text="@string/aluguel"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/cor_branco"
+            android:background="@color/vermelho" />
+        
+        <Button
+            android:id="@+id/buttonPermuta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboardLayout1"
+            android:layout_alignTop="@+id/dashboardLayout1"
+            android:layout_marginLeft="296dp"
+            android:layout_marginTop="155dp"
+            android:text="@string/permuta"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/cor_branco"
+            android:background="@color/vermelho" />
+        
+        <Button
+            android:id="@+id/buttonSobre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboardLayout1"
+            android:layout_alignTop="@+id/dashboardLayout1"
+            android:layout_marginLeft="296dp"
+            android:layout_marginTop="155dp"
+            android:text="@string/sobre"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/cor_branco"
+            android:background="@color/vermelho" />
+        
+        <Button
+            android:id="@+id/buttonDesenvolvedor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dashboardLayout1"
+            android:layout_alignTop="@+id/dashboardLayout1"
+            android:layout_marginLeft="296dp"
+            android:layout_marginTop="155dp"
+            android:text="@string/desenvolvedor"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/cor_branco"
+            android:background="@color/vermelho" />
+        
+    </com.google.android.apps.iosched.ui.widget.DashboardLayout>
+
+</RelativeLayout>
